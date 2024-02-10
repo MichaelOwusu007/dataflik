@@ -29,8 +29,8 @@ function App() {
                                     <a href="/">Blog</a>
                                 </p>
                             </div>
-                        </nav>
-                    </div>
+                    </nav>
+            </div>
       </header>
       <section className=' max-w-7xl   mx-auto my-[25vh] '>
         <section className='overflow-hidden lg-h-[100vh] flex flex-col justify-center items-center '>

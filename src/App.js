@@ -21,12 +21,12 @@ function App() {
                             </div>
                             <div className="link hidden lg:flex">
                                 <p className="py-2">
-                                    <a href="/#Project">Contact</a>
+                                    <a href="/#contact">Contact</a>
                                 </p>
                             </div>
                             <div className="link hidden lg:flex">
                                 <p className="py-2">
-                                    <a href="/#Project">Blog</a>
+                                    <a href="/">Blog</a>
                                 </p>
                             </div>
                         </nav>
@@ -40,9 +40,9 @@ function App() {
           </p>      
           <p className='text-xl md:text-3xl my-5'>Our boilerplates works with it <span className='text-blue-300'> out-of- the-box</span> </p>
           <div className="flex gap-4  text-[16px] md:text-xl">
-                            <a className=" py-2 px-3 font-bold bg-yellow-300 text-black " href="mickerl_codes.pdf">Get started &rarr;</a>
-                            <a href="mailto:michaelowusuwiafe007@gmail.com" className=" border border-yellow-300 font-bold text-yellow-300  py-[10px] px-6 hero-link flex justify-center items-center gap-2" >See repo <FaGithub /> </a>
-                            </div>
+                            <a className=" py-2 px-3 font-bold bg-yellow-300 text-black " href="/">Get started &rarr;</a>
+                            <a href="/" className=" border border-yellow-300 font-bold text-yellow-300  py-[10px] px-6 flex justify-center items-center gap-2" >See repo <FaGithub /> </a>
+                    </div>
           </section>
       </section>
       <section className='max-w-7xl px-6 lg:px-4 mx-auto'>
@@ -50,45 +50,43 @@ function App() {
                         <h2 className="px-2 mb-3 font-semibold text-xl md:text-2xl flex justify-center items-center">Supported and backed by:</h2>
                         <section className="grid grid-cols-2 place-items-center md:grid-cols-3 lg:grid-cols-4  gap-10 text-xl mt-10">
                             <div className="px-2 py-2 flex items-center w-[160px]  justify-center text-black bg-slate-300 font-semibold">
-                                <p className="px-2">HTML5</p>
+                                <p className="px-2">lorem</p>
                                 <i></i>
                             </div>
                             <div className="px-2 py-2 flex items-center w-[170px] text-black justify-center bg-slate-300 font-semibold ">
-                                <p className="px-2">CSS</p>
+                                <p className="px-2">lorem</p>
                                 <i></i>
                             </div>
                             <div className="px-2 py-2 flex items-center w-[170px] text-black justify-center bg-slate-300 sm:font-semibold">
-                                <p className="px-2">TailwindCSS</p>
+                                <p className="px-2">lorem</p>
                                 <i></i>
                             </div>
                             <div className="px-2 py-2 flex items-center w-[170px] text-black justify-center bg-slate-300 sm:font-semibold">
-                                <p className="px-2">RectJS</p>
+                                <p className="px-2">lorem</p>
                                 <i></i>
                             </div>
                          
                             <div className="px-2 py-2 flex items-center w-[170px] text-black justify-center bg-slate-300 sm:font-semibold">
-                                <p className="px-2">Git git</p>
+                                <p className="px-2">lorem</p>
                                 <i></i>
                             </div>
                             <div className="px-2 py-2 flex items-center w-[170px] text-black justify-center bg-slate-300 sm:font-semibold">
-                                <p className="px-2">Redux</p>
+                                <p className="px-2">lorem</p>
                                 <i></i>
                             </div>
                             <div className="px-2 py-2 flex items-center w-[170px] text-black justify-center bg-slate-300 sm:font-semibold">
-                                <p className="px-2">Firebase</p>
+                                <p className="px-2">lorem</p>
                                 <i></i>
                             </div>
                             <div className="px-2 py-2 flex items-center sm:font-semibold w-[170px] text-black justify-center bg-slate-300">
-                        <p className="px-2">Photoshop
-                    </p>
+                        <p className="px-2">lorem</p>
                     <i></i>
                  </div>        
             </section>
         </section>
         <section id="About" className=" w-full mb-20 py-10 snap-y scroll-mt-[6rem] ">
-                        <h2 className="title relative w-max px-2 mb-3 font-semibold text-4xl ">About Me</h2>
+                        <h2 className="title relative w-max px-2 mb-3 font-semibold text-4xl ">About</h2>
                         <p className="align-justify text-[18px] leading-[1.8em]  md:leading-[2em] md:text-xl ">
-
                             I have a strong passion for technology and thrive on constantly learning new things. Every day, I make it a point to document my progress by creating and building new projects. My expertise lies in crafting visually appealing and user-friendly websites and web applications. I take pride in translating visions into web realities, paying attention to every pixel.
                             <br />
                             <br />
@@ -134,6 +132,7 @@ function App() {
                         
                     </div>
                     </section>
+
                     <footer className=' py-32 lg:px-10 text-[18px] md:text-xl '>
                         <section className=' mx-auto grid h-full min-h-[200px] justify-between gap-6 px-4 grid-cols-2 md:grid-cols-3 md:px-10 lg:grid-cols-4 '>
                            <section className='flex flex-col lg:items-center'>

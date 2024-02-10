@@ -14,17 +14,17 @@ function App() {
                             <div className="navlink">
                                 <a href="/"><p className="py-2 lg:opacity-25  ">Home</p></a>
                             </div>
-                            <div className="link hidden lg:flex">
+                            <div className="link hidden md:flex">
                                 <p className="py-2">
                                     <a href="/#About">About</a>
                                 </p>
                             </div>
-                            <div className="link hidden lg:flex">
+                            <div className="link hidden md:flex">
                                 <p className="py-2">
                                     <a href="/#contact">Contact</a>
                                 </p>
                             </div>
-                            <div className="link hidden lg:flex">
+                            <div className="link hidden md:flex">
                                 <p className="py-2">
                                     <a href="/">Blog</a>
                                 </p>
@@ -123,7 +123,7 @@ function App() {
                                     </input>
                                 </div>
                                 <div className=''>
-                                    <textarea placeholder='Message' cols="10" rows="6" className='p-3 w-full px-4 rounded-sm focus:outline bg-slate-300 ' >
+                                    <textarea placeholder='Message' cols="10" rows="6" className='p-3 text-black w-full px-4 rounded-sm focus:outline bg-slate-300 ' >
                                     </textarea>
 
                                 </div>
